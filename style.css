@@ -1,0 +1,93 @@
+
+.Head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.Login-button {
+  padding: 5px 15px;
+  background-color: rgb(2, 2, 2);
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.Login-button:hover {
+  opacity: 0.8;
+}
+
+.Signup-button {
+  padding: 5px 15px;
+  background-color: rgb(254, 254, 254);
+  color: rgb(1, 1, 1);
+  border-radius: 50px;
+  border: solid 1px gray;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.Signup-button:hover {
+  opacity: 0.8;
+}
+
+.whatcan-title {
+  text-align: center;
+  margin-top: 150px;
+}
+.whatcan-title h2 {
+  font-family: sans-serif;
+}
+.inputfield {
+  text-align: center;
+  
+}
+input {
+  width: 650px;
+  height: 40px;
+  border-radius: 35px;
+  border: none;
+  background-color: #f4f4f4;
+  padding: 5px 38px;
+}
+::placeholder {
+  color: gray;
+}
+
+#Icn1 {
+  position: relative;
+  left: 2rem;
+}
+
+#Icn2 {
+  position: relative;
+  left: -3rem;
+}
+.button-div {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Surpriseme-button {
+margin: 5px;
+border: solid 0.5px rgb(187, 187, 187);
+padding: 10px 15px;
+border-radius: 35px;
+background-color: white;
+color: grey;
+
+}
+
+#bc1 {
+  margin: 10px;
+  border: solid 0.5px rgb(187, 187, 187);
+  padding: 10px 15px;
+  border-radius: 35px;
+  background-color: white;
+  color: gray; 
+
+}
+#bc1:hover,
+.Surpriseme-button:hover {
+  background-color: #f4f4f4;;
+  transition: 0.3s ease-in-out;
+}
